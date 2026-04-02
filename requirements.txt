@@ -16,6 +16,7 @@ inflection==0.5.1
 packaging==26.0
 psycopg2-binary==2.9.11
 PyJWT==2.12.1
+python-decouple==3.8
 pytz==2026.1.post1
 PyYAML==6.0.3
 requests==2.33.1

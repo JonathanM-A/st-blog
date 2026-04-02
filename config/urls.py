@@ -39,7 +39,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path("__debug__/", include(debug_toolbar.urls)),
     path("admin/", admin.site.urls),
-    path("api/", include("config.api_urls")),
+    path("api/<str:version>/", include("config.api_urls")),
     path("auth/", include("config.auth_urls")),
     path(
         "swagger/",
